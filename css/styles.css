@@ -1,0 +1,395 @@
+a {
+    text-decoration: none;
+    color: #656565;
+}
+
+button.nav-menu {
+    display: none;
+}
+
+table td {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 5px;
+}
+
+.button-menu {
+    display: none;
+}
+
+.menu-close {
+    display: none;
+}
+
+/* .navbar-container {
+    position: relative;
+    transition: 1s;
+}
+
+.navbar-container.hidden {
+    left: -30%;
+}
+
+.nav-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.button-burger {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    padding: 0;
+    background: none;
+    border: none;
+    height: 26px;
+    width: 26px;
+} */
+
+@media (min-width: 768px) {
+
+    .navbar-container {
+      position: sticky;
+      top: 0;
+      overflow-y: auto;
+      height: 100vh;
+    }
+
+    .navbar-container .navbar {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .navbar-container .nav {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .navbar-container .navbar-nav {
+      flex-direction: column !important;
+    }
+
+}
+
+.navbar-nav {
+    max-height: 420px;
+}
+
+.breadcrumb {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.content-container {
+    background: #F8FAFF;
+}
+
+.button-letter {
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #D4D4D4;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 12px 17px;
+    background: white;
+    margin-left: 16px;
+}
+
+.profile__avatar {
+    width: 41px;
+    height: 41px;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 2px solid #D9D9D9;
+}
+
+.profile__name {
+    color: #7D7D7D;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 0;
+    color: white;
+    background: #B1B1B1;
+    overflow-wrap: normal;
+    word-wrap: normal;
+    word-break: normal;
+}
+
+.button--green {
+    background: #55C97B;
+}
+
+.button-create-icon {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.table-shops {
+    width: 100%;
+    max-width: 1000px;
+    color: #6E6E6E;
+    font-size: 14px;
+}
+
+.row-table {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.row-head {
+    color: #343434;
+}
+
+.table-shops tr {
+    height: 56px;
+}
+
+.modal-dialog {
+    max-width: 617px;
+    width: 100%;
+}
+
+.modal-content {
+    box-shadow: 0px 30px 38px rgba(37, 37, 37, 0.1);
+    padding: 14px 14px 18px;
+}
+
+.domen-input {
+    background: #E6E6E9;
+}
+
+.input-group-text {
+    padding: 7px 46px;
+    background: #6666CC;
+    color: white;
+}
+
+label span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-select {
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.info__icon {
+    width: 52px;
+    height: 52px;
+    padding: 0;
+}
+
+.info__text {
+    color: #7D7D7D;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.form .button {
+    padding: 9px 50px;
+    font-size: 14px;
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
+
+.nav-item.active {
+    position: relative;
+}
+
+.nav-item.active::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -24px;
+    height: 100%;
+    width: 4px;
+    background: #6666CC;
+    box-shadow: 0px 2px 10px rgba(102, 102, 204, 0.67);
+}
+
+.table-shops th:last-child {
+    width: 308px;
+    max-width: 308px;
+}
+
+/* .nav-close {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background: none;
+    font-size: 40px;
+    z-index: 9999;
+}
+
+.nav-close img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-close .close-icon {
+    display: none;
+}
+
+.nav-close .menu-icon {
+    display: block;
+}
+
+.nav-close.active .close-icon {
+    display: block;
+}
+
+.nav-close.active .menu-icon {
+    display: none;
+} */
+
+@media (max-width: 1280px) {
+
+    /* .navbar-container {
+        position: fixed;
+        top: 0;
+        left: -30%;
+        height: 100vh;
+        z-index: 999;
+        width: 30%;
+    }
+
+    .navbar-container.active {
+       left: 0;
+    }
+
+    .content-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }*/
+    
+    .table-shops {
+        font-size: 10px;
+        max-width: 640px;
+    }
+
+    .profile {
+        margin-left: 8px;
+        padding: 8px 2px;
+    }
+
+    .profile__name {
+        font-size: 10px;
+    }
+
+    .button-letter {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .table-shops th:last-child {
+        max-width: 105px;
+    } 
+
+}
+
+@media (max-width: 768px) {
+
+    .menu-close {
+        position: absolute;
+        right: 24px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        background: none;
+        border: none;
+        z-index: 9999;
+    }
+
+    .menu-close {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-menu {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .navbar-container.active {
+        position: relative;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+    }
+
+    .breadcrumb {
+        font-size: 10px !important;
+    }
+
+    .modal-dialog {
+        margin: 0;
+    }
+
+    .table-shops th:last-child {
+        width: 80px !important;
+        max-width: 80px;
+    }
+
+    .button {
+        padding: 5px;
+        gap: 4px;
+        font-size: 10px;
+    }
+
+}
